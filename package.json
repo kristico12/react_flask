@@ -1,24 +1,26 @@
 {
-  "name": "starter-kit",
-  "version": "1.1.0",
-  "description": "",
+  "name": "react-flask-master",
+  "version": "1.0.0",
+  "description": "reinstall",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "start": "python app.py"
   },
-  "author": "Jesus Ricardo",
+  "author": "jesus",
   "license": "ISC",
-  "devDependencies": {
-    "babel-core": "*",
-    "babel-loader": "*",
-    "babel-preset-es2015": "*",
-    "babel-preset-react": "*",
-    "webpack": "*"
-  },
   "dependencies": {
-    "react": "*",
-    "react-dom": "*"
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.13.0",
+    "webpack-cli": "^3.0.8"
   }
 }
