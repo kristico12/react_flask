@@ -1,6 +1,7 @@
 from flask import Flask, render_template
 app = Flask(__name__)
 
+
 @app.route('/apis')
 def apis():
     return "apis"
@@ -9,7 +10,5 @@ def apis():
 def main():
     return render_template('index.html')
 
-
 if __name__ == '__main__':
     app.run(debug=True)
-

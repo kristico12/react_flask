@@ -3,7 +3,7 @@ module.exports = {
     entry: "./React/app.jsx",
     output: {
         path: __dirname + '/static',
-        filename: "bundle.React"
+        filename: "bundle.js"
     },
     module: {
         rules: [{
