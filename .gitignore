@@ -1,5 +1,5 @@
 .DS_Store
+.idea
 venv
 node_modules
 static/bundle.js
-
